@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0%;
+    }
+    #Header{
+        background-color: black;
+        width: 100%;
+    }
+    #heading {
+      background-color: lightgreen;
+      padding: 30px;
+      font-family: "Courier New", Courier, monospace;
+    }
+    #submit {
+      background-color: black;
+      color: white;
+      border-radius: 5px;
+      padding: 5px;
+      margin: 2px;
+    }
+    #middle {
+      margin: 30px;
+      padding: 5px;
+    }
+    h3 {
+      margin: 5px;
+    }
+    input {
+      height: 30px;
+      width: 450px;
+      padding: 5px;
+      margin: 5px;
+      border-radius: 10px;
+    }
+    #green {
+      width: 50px;
+      padding: 3px;
+      border-radius: 5px;
+      background-color: green;
+      color: white;
+    }
+    #red {
+      width: 50px;
+      padding: 3px;
+      border-radius: 5px;
+      background-color: red;
+      color: white;
+    }
+  </style>
+  <body>
+    <h1 id="Header">0</h1>
+    <h1 id="heading">ToDo List</h1>
+    <div id="middle">
+      <h3>Add Items</h3>
+      <input type="text" id="item" />
+      <button id="submit">Submit</button>
+
+      
+
+      <form id="newform">
+        <h3>Tasks</h3>
+        <input type="text" placeholder="HTML" />
+        <button id="green">Edit</button>
+        <button id="red">Delete</button><br />
+
+        <input type="text" placeholder="CSS" />
+        <button id="green">Edit</button>
+        <button id="red">Delete</button><br />
+
+        <input type="text" placeholder="Javascript" />
+        <button id="green">Edit</button>
+        <button id="red">Delete</button><br />
+      </form>
+    </div>
+  </body>
+</html>

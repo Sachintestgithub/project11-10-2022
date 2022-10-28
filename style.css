@@ -1,0 +1,474 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  .main {
+    width: 100%;
+    background-color: aquamarine;
+    height: 100px;
+    color: white;
+    }
+  .icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+  }
+  .navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+  }
+  .logo {
+    color: white;
+    font-size: 30px;
+
+    padding-top: 18px;
+    float: left;
+  }
+  .menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+  }
+  ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 20px;
+  }
+  ul li a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+  }
+  .home {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: red;
+  }
+  .search {
+    float: right;
+    padding: 4px;
+    margin-left: 30px;
+    }
+
+  .btn {
+    width: 100px;
+    height: 40px;
+    border: 3px solid black;
+    margin-top: 17px;
+    border-radius: 9px;
+  }
+/* ----------Second para---- */
+
+.Subheading{
+    height: 400px;
+    width: 100%;
+    margin-top: 45px;
+}
+.sub{
+    text-align: center;
+    margin-bottom: 22px;   
+
+}
+.left{
+    border: 2px solid red;
+    border-radius: 8px;
+    height: 300px;
+    width: 30%;
+    float: left;
+    margin-left: 3%; 
+}
+.middle{
+   border: 2px solid red;
+    border-radius: 8px;
+    height: 300px;
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+}
+.right{
+    border: 2px solid red;
+    border-radius: 8px;
+    height: 300px;
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+}
+ .item1{
+    height: 80px;
+    width: 80px;
+    background-color: aquamarine;
+    border: 4px solid aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40%;
+
+}
+.yellow{
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    border: 4px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    margin-left: 40%;
+
+}
+.item3{
+    height: 80px;
+    width: 80px;
+    background-color: aquamarine;
+    border: 4px solid aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    margin-left: 40%; 
+}
+
+.yellow1{
+ height: 80px;
+    width: 80px;
+    background-color: yellow;
+    border: 4px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    float: left;
+    
+
+}
+.item32{
+    height: 80px;
+    width: 80px;
+    background-color: aquamarine;
+    border: 4px solid aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    margin-left: 96px;
+    float: left;
+    
+}
+
+.yellow2{
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    border: 4px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    float: right;
+}
+.item33{
+    height: 80px;
+    width: 80px;
+    background-color: aquamarine;
+    border: 4px solid aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    margin-right: 96px;
+    float: right; 
+}
+
+
+
+/* -------------------Unique Topic---------- */
+.Position{
+    height: 400px;
+    width: 100%;
+     margin-top: 40px;
+    
+}
+.unique{
+    text-align: center;
+    margin-bottom: 22px;
+}
+.left_content{
+    border: 4px solid red;
+    border-radius: 8px;
+    height: 320px;
+    width: 30%;
+    float: left;
+    margin-left: 2.5%;
+   
+}
+.middle_content{
+    border: 4px solid red;
+    border-radius: 8px;
+    height: 320px;
+    width: 30%;
+    float: left;
+    margin-left: 2.5%;
+    
+}
+.right_content{
+    border: 4px solid red;
+    border-radius: 8px;
+    height: 320px;
+    width: 30%;
+    float: right; 
+    margin-left: 2.5%;
+}
+.item21{
+    height: 80px;
+    width: 80px;
+    background-color: aquamarine;
+    border: 4px solid aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 40%; 
+}
+.item22{
+    height: 80px;
+    width: 80px;
+    background-color: aquamarine;
+    border: 4px solid aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    margin-left: 40%;
+}
+
+.yellow131{
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    border: 4px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    margin-left: 50%;
+}
+.item23{
+    height: 80px;
+    width: 80px;
+    background-color: aquamarine;
+    border: 4px solid aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    margin-left: 40%;  
+}
+.item31{
+    height: 80px;
+    width: 80px;
+    background-color: aquamarine;
+    border: 4px solid aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    margin-left: 10%;
+    float: left;
+}
+
+
+
+.yellow_hero{
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    border: 4px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    margin-left: 10%; 
+    float: left;
+}
+
+
+  /* -----------Third Para-------- */
+  .middle_flex{
+    text-align: center;
+    font-weight: 25px;
+    margin-bottom: 25px;
+    
+}
+.gray{
+    background-color: lightseagreen;
+    height: 440px;
+    display: block;
+    justify-items: center;
+    align-items: center;
+    margin-top: 40px;
+    
+     
+}
+.inner11, .inner22, .inner33, .inner44{
+    height: 70px;
+    width: 70px;
+    background-color: aquamarine;
+    border: 3px solid black;
+    border-radius: 4px;
+    margin-left: 50%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+/* --------fourth para------ */
+
+.mid_footer{
+height: 600px;
+width: 90%;
+background-color: lightblue;
+margin-top: 50px;
+margin-left: 5%;
+margin-right: 5%;
+display: grid;
+grid-template-columns: repeat(8,1fr);
+grid-column-gap: 5px;
+}
+.inner111{
+    height: 50px;
+    width: 60px;
+    border: 5px solid aqua;
+    border-radius: 8px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+    margin-top: 7px;
+}
+.inner1111{
+    height: 60px;
+    width: 70px;
+    border: 5px solid red;
+    border-radius: 4px;
+    background-color: aquamarine;
+    margin:5px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 15px;
+
+}
+
+
+
+
+/* ------fifth para------ */
+
+.sub_footer{
+    height: 115px;
+    width: 90%;
+    background-color: lightblue;
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 65px;
+    }
+
+    .inner11111{
+        height: 100px;
+        width: 100px;
+        border: 5px solid aqua;
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 4px;
+        margin-top: 7px;
+        border-radius: 8px;
+        grid-gap: 95px;
+    }
+    .space{
+        height: 100px;
+        width: 600px;
+        border-radius: 8px;
+    }
+
+
+    /* ------sixth para------ */
+
+    .under_footer{
+        height: 115px;
+        width: 90%;
+        background-color: lightblue;
+        margin-top: 50px;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        
+        }
+    
+
+
+        .inner121{
+            height: 100px;
+            width: 100px;
+            border: 5px solid aqua;
+            background-color: aquamarine;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 4px;
+            margin-top: 7px;
+            border-radius: 8px;
+        }
+
+
+
+        /* ---------seventh para------- */
+.footer{
+    height: 80px;
+    width: 100%;
+    background-color: aquamarine;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.fa-instagram{
+    font-size: 40px;
+    margin: 35px;
+    color: white;
+}
+.fa-twitter{
+    font-size: 40px;
+    margin: 35px;
+    color: white;
+}
+.fa-facebook{
+    font-size: 40px;
+    margin: 35px;
+    color: white;
+}
+
