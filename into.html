@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <style>
+      *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container{
+        width: 100%;
+        height: 100vh;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyzHSxPRiIwL343YSL9sIVpGOGmqyS6699kg&usqp=CAU");
+        background-position: center;
+        background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    }
+      .navbar{
+        height: 12%;
+        display: flex;
+        align-items: center;
+      }
+      .logo{
+    width: 50px;
+    cursor: pointer;
+
+      }
+      a{
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 26px;
+      }
+      .logo1{
+        width: 30px;
+        cursor: pointer;
+      }
+      nav{
+        flex: 1;
+        text-align: end;
+      }
+      nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin-left: 60px;
+      }
+      .row{
+        display: flex;
+        height: 88%;
+        align-items: center;
+      }
+      .col{
+        flex-basis: 50%;
+      }
+      p{
+        color:black;
+      }
+      h1{
+        color: aqua;
+        font-size: 100px;
+      }
+      button{
+        padding: 12px;
+        width: 180px;
+        font-size: 15px;
+        color: blue;
+        border: 0;
+        border-radius: 20px;
+        outline: none;
+        margin-top: 15px;
+      }
+      .card{
+        width: 200px;
+        height: 230px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 15px; 25px;
+        box-sizing:border box;
+       cursor: pointer;
+       margin: 10px 15px;
+       background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYdRqhPypuAtTHZ0j7xgdp2wrBB3KeK8NNLA&usqp=CAU") :
+       background-position: center;
+background-size: cover;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <img
+          src="img\banner-1.jpg"  class="logo"/>
+        <nav>
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <img
+          src="img\banner-3.jpg" class="logo1" />
+      </div>
+      <div class="row">
+        <div class="col">
+          <h1>Sahara</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+            odit id, saepe in, esse laboriosam labore similique nobis dolorum
+            necessitatibus aut ipsum velit aspernatur voluptatibus maxime
+            cupiditate illo dolores. Dignissimos aliquid debitis nemo asperiores
+            distinctio. Vitae praesentium cumque nam! Architecto ipsa excepturi
+            eaque expedita ex praesentium dolor, voluptas unde deleniti.
+          </p>
+          <button>Explore</button>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <h5>Western Desert</h5>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi,
+              quia?
+            </p>
+          </div>
+
+          <div class="card">
+            <h5>Eastern Desert</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+              aut atque illo totam repudiandae cumque nesciunt eligendi. Ex ad,
+              dolorum voluptate quos fuga iusto nesciunt.
+            </p>
+          </div>
+          <div class="card">
+            <h5>Western Desert</h5>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi,
+              quia?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
